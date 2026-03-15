@@ -13,6 +13,7 @@ module.exports = {
     'https://fonts.googleapis.com/css?family=Bitter:300,400,700&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700&display=swap'
+    'https://cdn.jsdelivr.net/npm/@fontsource/fusion-pixel-12px-proportional-sc@5.2.5/index.min.css'
   ],
 
   // 字体优化配置
@@ -21,7 +22,8 @@ module.exports = {
   FONT_SUBSET: process.env.NEXT_PUBLIC_FONT_SUBSET || 'chinese-simplified',
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
-    // '"LXGW WenKai"',
+    // '"Fusion Pixel 12px Proportional SC"',
+    '"LXGW WenKai"',
     '"PingFang SC"',
     '-apple-system',
     'BlinkMacSystemFont',
@@ -41,7 +43,7 @@ module.exports = {
   ],
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
-    // '"LXGW WenKai"',
+    // '"Fusion Pixel 12px Proportional SC"',
     'Bitter',
     '"Noto Serif SC"',
     'SimSun',
